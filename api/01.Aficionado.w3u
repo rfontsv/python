@@ -10,7 +10,7 @@
         {
         "name": "IPTV 00",
         "image": "https://i.postimg.cc/XJ5VhtB0/World-new.png",
-        "url": "https://raw.githubusercontent.com/rfontsv/python/main/api/00.Nicgoto.m3u",
+        "url": "http://vr.free.nf/index.php?user=nicgoto&password=2",
         "info":"200 conex",
         "import": false
         },
