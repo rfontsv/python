@@ -19,13 +19,13 @@ class handler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type','text/html')
         self.end_headers()
-        with open(join(dir, '..', 'api', '01.Aficionado.w3u'), 'r') as file:
+        with open(join(dir, '..', 'api', '02.Aficionado.w3u'), 'r') as file:
           for line in file:
             self.wfile.write(line.encode())
         return  
         
 def inicia():
-   target_url="https://raw.githubusercontent.com/rfontsv/python/main/api/01.Aficionado.w3u"
+   target_url="https://raw.githubusercontent.com/rfontsv/python/main/api/02.Aficionado.w3u"
    http = urllib3.PoolManager()
    response = http.request('GET', target_url)
    data = response.data.decode('utf-8')
