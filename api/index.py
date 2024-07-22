@@ -25,7 +25,7 @@ class handler(BaseHTTPRequestHandler):
         return  
         
 def inicia():
-   target_url="https://raw.githubusercontent.com/rfontsv/python/main/api/01.Aficionado.w3u"
+   target_url="https://raw.githubusercontent.com/rfontsv/python/main/api/02.Aficionado.w3u"
    http = urllib3.PoolManager()
    response = http.request('GET', target_url)
    data = response.data.decode('utf-8')
