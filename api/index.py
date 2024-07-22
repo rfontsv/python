@@ -19,7 +19,7 @@ class handler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type','text/html')
         self.end_headers()
-        with open(join(dir, '..', 'api', '02.Aficionado.w3u'), 'r') as file:
+        with open(join(dir, '..', 'api', '01.Aficionado.w3u'), 'r') as file:
           for line in file:
             self.wfile.write(line.encode())
         return  
