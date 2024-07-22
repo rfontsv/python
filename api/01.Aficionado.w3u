@@ -2,12 +2,19 @@
 "name": "IptVs",
 "author": "🅰️🅵1🅲🅸🅾️🅽🅰️🅳🅾️🆂",
 "image": "https://media.tenor.com/QeO8SEgM4DcAAAAC/uchiha-sharingan.gif",
-"url": "https://af1c1onados.vercel.app/02.Menu.Iptvs.w3u",
+"url": "http://vr.free.nf/index.php?user=aficionado&password=1",
 "telegram": "Lista_AF1CIONADOS",
 "info":"",
 "groups":
     [
         {
+        "name": "IPTV 00",
+        "image": "https://i.postimg.cc/XJ5VhtB0/World-new.png",
+        "url": "http://vr.free.nf/index.php?user=nicgoto&password=tESRQEdntHAA",
+        "info":"200 conex",
+        "import": false
+        },
+		{
         "name": "IPTV 01",
         "image": "https://i.postimg.cc/XJ5VhtB0/World-new.png",
         "url": "http://31.42.185.216:8000/get.php?username=LI-2024Restrea&password=A3P9PM00X8&type=m3u_plus",
